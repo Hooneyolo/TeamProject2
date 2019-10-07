@@ -8,10 +8,13 @@ import java.util.*;
  */
 public class MyApp
 {
-    public static void main(String [] args){         
+    public static void main(String [] args){
         try{
-        FileReader fr = new FileReader("c:\\temp\\inputData20191007.txt");
+        Scanner scanner = new Scanner(new FileReader("c:\\temp\\inputData20191007.txt"));
         
+        // FileReader fr = new FileReader("c:\\temp\\inputData20191007.txt");
+        // HashMap<String, Integer> hash_map = new HashMap<String, Integer>();
+        // hash_mpa.put = (name, value);
     }catch(IOException e){
         System.out.println("File is not found!");
     }
