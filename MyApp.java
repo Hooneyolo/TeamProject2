@@ -13,6 +13,11 @@ public class MyApp
         Scanner scanner = new Scanner(new FileReader("c:\\temp\\inputData20191007.txt"));
         HashMap<String, Integer> hash_map = new HashMap<String, Integer>();
         hash_map.put = (,);
+        
+        System.out.println(FileReader);
+        while(){
+        
+        }
         // FileReader fr = new FileReader("c:\\temp\\inputData20191007.txt");
         // HashMap<String, Integer> hash_map = new HashMap<String, Integer>();
         // hash_mpa.put = (name, value);
