@@ -1,4 +1,4 @@
-
+import java.io.*;
 /**
  * 여기에 MyApp 클래스 설명을 작성하십시오.
  * 
@@ -7,5 +7,13 @@
  */
 public class MyApp
 {
+    public static void main(String [] args){
+        try{
+        FileReader fr = new FileReader("c:\\temp\\inputData20191007.txt");
+        
+    }catch(IOException e){
+        System.out.println("File is not found!");
+    }
     
+    }
 }
